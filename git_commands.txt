@@ -14,3 +14,24 @@ git branch
 git push origin main
 git log --oneline
 git pull origin main
+
+cd "C:\Users\inder\Documents\Final Project\New_Code\MyProject"
+
+# 1️⃣ Get the latest version from GitHub
+git pull origin main
+
+# 2️⃣ Make your changes (edit, add, or delete files)
+# e.g. open files in VS Code or any editor
+
+# 3️⃣ Check what changed
+git status
+
+# 4️⃣ Stage your changes
+git add .
+
+# 5️⃣ Commit them with a message
+git commit -m "Your description of the change"
+
+# 6️⃣ Push back to GitHub
+git push origin main
+
