@@ -1,0 +1,16 @@
+cd "C:\Users\inder\Documents\Final Project\New_Code"
+git clone https://github.com/inderjitschauhan/MyProject.git
+cd MyProject
+git remote -v
+git config --global user.name "inderjitschauhan"
+git config --global user.email "inderjits@iisc.ac.in"
+git config --global user.name
+git config --global user.email
+git status
+echo "# MyProject" > README.md
+git add .
+git commit -m "Added README file"
+git branch
+git push origin main
+git log --oneline
+git pull origin main
